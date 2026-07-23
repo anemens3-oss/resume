@@ -1,0 +1,25 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #0b1015;
+}
+.header {
+    display: flex;
+}
+
+.aboutMe {
+    font-family: 'Times New Roman', sans-serif;
+    color: white;
+    padding: 24px;
+    letter-spacing: 2px;
+}
+
+.about {
+    margin-right: 0px;
+    justify-content: center;
+}
