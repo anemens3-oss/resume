@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #0b1015;
+    background: linear-gradient(to left, #0b1015, #111c27);
 }
 .header {
     display: flex;
@@ -19,7 +19,25 @@ body {
     letter-spacing: 2px;
 }
 
+.about-box {
+    margin-left: auto;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;            
+    gap: 54px;   
+}
+              
+
 .about {
     margin-right: 0px;
+    text-decoration: none;
+    color: white;
     justify-content: center;
+    padding-right:0px;
+    transition: opacity 0.2s;
+}
+
+.about:hover {
+    opacity: 0.8;
 }
