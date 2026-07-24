@@ -5,17 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="../resume/style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Syne:wght@700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <h1 class="aboutMe">ME</h1>
-        <nav class="about-box">
-            <a href="#" class="about">RESUME</a>
-            <a href="#" class="about">ABOUT ME</a>
-        </nav>
-    </header>
     <div>
-        
+        <header class="header">
+            <h1 class="aboutMe">ME</h1>
+            <nav class="about-box">
+                <a href="#" class="about">RESUME</a>
+                <a href="#" class="about">ABOUT ME</a>
+            </nav>
+        </header>
+
+        <!-- Блок 1: главный-->
+        <section class="block" id="main">
+            <div class="name">
+                <p class="sub-text-top">I'm</p>
+                <h1 class="text-name">VADIM</h1>
+                <p class="sub-text-bottom">Web-developer</p>
+            </div>
+            <div class="contact">
+                <button type="button" class="contact-btn">
+                    <img src="../resume/img/github.png" alt="GitHub" width="42" height="42">
+                </button>
+                <button type="button" class="contact-btn">
+                    <img src="../resume/img/email.png" alt="email" width="42" height="42">
+                </button>
+                <button type="button" class="contact-btn">
+                    <img src="../resume/img/telegram.png" alt="telegram" width="42" height="42">
+                </button>
+                <button type="button" class="contact-btn">
+                    <img src="../resume/img/phone.png" alt="phone" width="42" height="42">
+                </button>
+            </div>
+        </section>
+        <hr style="border: none; border-top: 2px solid #ffffff; width: 80%; margin: 20px auto;">
+
+        <!-- Блок 2: портфолио -->
+        <section class="block" id="portfolio">
+            <h1>Портфолио</h1>
+        </section>
+        <hr style="border: none; border-top: 2px solid #ffffff; width: 80%; margin: 20px auto;">
+        <!-- Блок 3: обо мне -->
+        <section class="block" id="about">
+            <h1>О бо мне</h1>
+        </section>
+        <hr style="border: none; border-top: 2px solid #ffffff; width: 80%; margin: 20px auto;">
+        <!-- Блок 4: навыки -->
+        <section class="block" id="skills">
+            <h1>Навыки</h1>
+        </section>
     </div>
 </body>
 </html>
